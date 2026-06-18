@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+#section-howto {
+    color: #6b6b6b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-howto .section-title {
+    margin: 2em 0em;
+    font-family: "NanumSquareEB";
+    font-size: 2em;
+    color: #6b6b6b;
+}
+
+#section-howto .section-title h1 {
+    font-size: 45px;
+    color: #abc7ff;
+    margin: 0;
+}
+
+#section-howto .section-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "NanumSquareB";
+    font-size: 1em;
+}
+
+#section-howto .section-logo img {
+    max-width: 8em;
+    width: 100%;
+}
+
+#section-howto .section-info {
+    font-family: "NanumSquareR";
+    font-size: 1em;
+    color: #686868;
+    width: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    margin-top: 2em;
+}
+
+#section-howto .section-info p {
+    margin: 0;
+}
+
+#section-howto .section-info p.section-gap {
+    margin-top: 1em;
+}
+
+#section-howto .link-area {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+    font-family: "NanumSquareR";
+    font-size: 1em;
+}
+
+#section-howto .link-area .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-howto .link-area .chars {
+    width: 100%;
+    margin-top: .5em;
+}
+
+#section-howto .link-area .chars img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #section-howto .section-info {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #section-howto .section-info {
+        width: 90%;
+    }
+}

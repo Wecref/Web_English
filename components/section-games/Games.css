@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+#section-learn {
+    color: #6b6b6b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-learn .section-title {
+    margin: 2em 0em;
+    font-family: "NanumSquareEB";
+    font-size: 2em;
+    color: #6b6b6b;
+}
+
+#section-learn .section-title h1 {
+    font-size: 45px;
+    color: #abc7ff;
+    margin: 0;
+}
+
+#section-learn .section-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "NanumSquareB";
+    font-size: 1em;
+}
+
+#section-learn .section-logo img {
+    max-width: 8em;
+    width: 100%;
+}
+
+#section-learn .section-info {
+    font-family: "NanumSquareR";
+    font-size: 1em;
+    color: #686868;
+    width: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    margin-top: 2em;
+}
+
+#section-learn .section-info p {
+    margin: 0;
+}
+
+#section-learn .section-info p.section-gap {
+    margin-top: 1em;
+}
+
+#section-learn .link-area {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+    font-family: "NanumSquareR";
+    font-size: 1em;
+}
+
+#section-learn .link-area .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-learn .link-area:has(.charsV2) {
+    width: 67%;
+}
+
+#section-learn .link-area .charsV2 {
+    width: 100%;
+    margin-top: .5em;
+}
+
+#section-learn .link-area .charsV2 img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #section-learn .section-info {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #section-learn .section-info {
+        width: 90%;
+    }
+}
+
+#section-learn .steps-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+#section-learn .step-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+#section-learn .step-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    align-self: center;
+}
+
+#section-learn .step-naver {
+    align-self: flex-end;
+}
+
+#section-learn .step-buttons img,
+#section-learn .step-naver img {
+    display: block;
+    width: 7.2rem;
+    height: auto;
+}
+
+#section-learn .section-end {
+    text-align: center;
+    margin-top: 4em;
+}
+
+#section-learn .section-end img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#section-learn .step-image,
+#section-learn .step-ribbon {
+    width: 14.4rem;
+}
+
+#section-learn .step-image picture,
+#section-learn .step-ribbon picture {
+    display: flex;
+}
+
+#section-learn .step-image img,
+#section-learn .step-ribbon img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#section-learn .step-label-top,
+#section-learn .step-label-bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-learn .step-label-top {
+    top: 0;
+    height: 35%;
+}
+
+#section-learn .step-label-bottom {
+    top: 35%;
+    bottom: 0;
+}
+
+#section-learn .step-label-inner {
+    text-align: center;
+    line-height: 1.1em;
+}
+
+#section-learn .step-label-top .step-label-inner {
+    font-family: "NanumSquareEB";
+    font-size: clamp(1rem, 9cqw, 1.333rem);
+    color: #ffffff;
+    padding-top: 0.15em;
+}
+
+:lang(en) #section-learn .step-label-top .step-label-inner {
+    font-size: clamp(0.8rem, 7cqw, 1rem);
+}
+
+#section-learn .step-label-bottom .step-label-inner {
+    font-family: "NanumSquareR";
+    font-size: 0.833rem;
+    color: #686868;
+}
+
+#section-learn .step-label-bottom .highlight {
+    font-family: "NanumSquareEB";
+}
+
+#section-learn .step-group:nth-child(1) .step-label-bottom .highlight {
+    color: #a839ff;
+}
+
+#section-learn .step-group:nth-child(2) .step-label-bottom .highlight {
+    color: #009cea;
+}
+
+#section-learn .step-group:nth-child(2) .step-label-top .highlight {
+    color: #009cea;
+}
+
+#section-learn .step-ribbon {
+    width: 14.4rem;
+    position: relative;
+    container-type: inline-size;
+}
