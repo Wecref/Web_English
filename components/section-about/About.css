@@ -15,8 +15,9 @@
 }
 
 #section-english .section-title h1 {
+    font-family: "NanumSquareEB";
     font-size: 45px;
-    color: #abc7ff;
+    color: #6b6b6b;
     margin: 0;
 }
 
@@ -52,7 +53,7 @@
 
 #section-english .section-info {
     width: fit-content;
-    background: #fee6ff;
+    background: #ebffdc;
     border-radius: 2em;
     padding: 1em 2em;
     position: relative;
@@ -128,16 +129,18 @@
     display: block;
 }
 
-#section-english .app-buttons,
+#section-english .app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1.5em 0 3em;
+}
+
 #section-learn .app-buttons {
     display: flex;
     justify-content: center;
     gap: 1em;
-    margin: 1.5em 0;
-}
-
-#section-learn .app-buttons {
-    margin-top: 3em;
+    margin: 3em 0;
 }
 
 #section-english .app-buttons a,
@@ -178,7 +181,11 @@
 }
 
 #section-english .book-info > .book-row:nth-child(2) {
-    gap: 0.75em;
+    gap: 1.25em;
+}
+
+#section-english .book-info > .book-row:nth-child(3) {
+    gap: 0.525em;
 }
 
 #section-english .book-row img,
