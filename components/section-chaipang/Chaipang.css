@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5rem;
 }
 
 #section-howto .section-title {
@@ -15,8 +16,9 @@
 }
 
 #section-howto .section-title h1 {
+    font-family: "NanumSquareEB";
     font-size: 45px;
-    color: #abc7ff;
+    color: #6b6b6b;
     margin: 0;
 }
 
