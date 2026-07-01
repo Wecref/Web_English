@@ -8,13 +8,15 @@ export function InitMenu(targets) {
         target.addEventListener('click', event => {
             event.preventDefault();
             ClickCss(event.currentTarget, targets);
-            const href = event.currentTarget.getAttribute('href');
-            if (!href) return;
-            if (href.startsWith('#')) {
-                const targetEl = document.querySelector(href);
-                if (targetEl) targetEl.scrollIntoView({ behavior: 'smooth' });
-            } else {
-                window.location.href = href;
+            if (event.currentTarget.href) {
+                var targetAttr = event.currentTarget.getAttribute('target');
+                var hrefAttr = event.currentTarget.getAttribute('href');
+                if (hrefAttr.startsWith('#')) {
+                    const targetEl = document.querySelector(hrefAttr);
+                    if (targetEl) targetEl.scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    window.open(event.currentTarget.href, targetAttr || "_self");
+                }
             }
         });
     });

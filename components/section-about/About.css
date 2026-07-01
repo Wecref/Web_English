@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: clamp(0.45rem, 1.5625vw, 30px);
+    background: url(../../shared/images/BG_confetti_1.png) no-repeat center top / 100% auto;
 }
 
 #section-english .section-title {
@@ -12,13 +14,6 @@
     font-family: "NanumSquareEB";
     font-size: 2em;
     color: #6b6b6b;
-}
-
-#section-english .section-title h1 {
-    font-family: "NanumSquareEB";
-    font-size: 45px;
-    color: #6b6b6b;
-    margin: 0;
 }
 
 #section-english .section-intro {
@@ -29,7 +24,7 @@
     text-align: center;
     padding: 0.2em 2em;
     font-family: "NanumSquareB";
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #c7d8ff;
     line-height: 1.4em;
 }
@@ -62,11 +57,11 @@
 #section-english .section-info::before {
     content: "";
     position: absolute;
-    left: -1.2rem;
+    left: -1.2em;
     top: 50%;
     transform: translateY(-50%);
-    width: 1.2rem;
-    height: 2.4rem;
+    width: 1.2em;
+    height: 2.4em;
     background: url(../../shared/images/speech_bubble.webp) no-repeat center / contain;
     pointer-events: none;
 }
@@ -78,10 +73,10 @@
 }
 
 #section-english .info-icon img {
-    width: 12.8rem;
+    width: 12.8em;
     height: auto;
     display: block;
-    margin-right: 1.5rem;
+    margin-right: 1.5em;
 }
 
 #section-english .info-texts {
@@ -92,7 +87,7 @@
 
 #section-english .info-texts li {
     font-family: "NanumSquareR";
-    font-size: 1rem;
+    font-size: 1em;
     color: #686868;
     padding-left: 1.8em;
     position: relative;
@@ -124,7 +119,7 @@
 }
 
 #section-english .section-screenshots img {
-    width: 13.6rem;
+    width: 13.6em;
     height: auto;
     display: block;
 }
@@ -133,7 +128,7 @@
     display: flex;
     justify-content: center;
     gap: 1em;
-    margin: 1.5em 0 3em;
+    margin: 1.5em 0;
 }
 
 #section-learn .app-buttons {
@@ -150,7 +145,7 @@
 
 #section-english .app-buttons img,
 #section-learn .app-buttons img {
-    width: 6.93rem;
+    width: 6.93em;
     height: auto;
     display: block;
 }
@@ -176,12 +171,24 @@
     display: flex;
 }
 
+#section-english .book-info > .book-row:nth-child(1) picture {
+    flex: 0 0 15.6em;
+}
+
+#section-english .book-info > .book-row:nth-child(2) picture {
+    flex: 0 0 15.6em;
+}
+
+#section-english .book-info > .book-row:nth-child(3) picture {
+    flex: 0 0 9.333em;
+}
+
 #section-english .book-info > .book-row:nth-child(1) {
     gap: 1.25em;
 }
 
 #section-english .book-info > .book-row:nth-child(2) {
-    gap: 1.25em;
+    gap: 0.75em;
 }
 
 #section-english .book-info > .book-row:nth-child(3) {
@@ -191,12 +198,14 @@
 #section-english .book-row img,
 #section-howto .book-row img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 #section-howto .book-row picture {
     display: flex;
     width: calc(50% - 0.4em);
-    max-width: 22.93rem;
+    max-width: 22.93em;
 }
 
 #section-howto .book-row img {
