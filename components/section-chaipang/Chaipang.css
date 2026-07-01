@@ -8,7 +8,7 @@
     font-size: clamp(0.45rem, 1.5625vw, 30px);
     margin-top: 7em;
     padding-bottom: 3em;
-    background: url(../../shared/images/BG_confetti_2.png) no-repeat center top / 100% auto;
+    background: url(../../shared/images/BG_confetti_2.webp) no-repeat center top / 100% auto;
 }
 
 #section-howto .section-title {

@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    background-image: url(../button/images/Website_button_pink.png);
+    background-image: url(../button/images/Website_button_pink.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@
 }
 
 #section-learn .link-area .link a {
-    background-image: url(../button/images/Website_button_yellow.png);
+    background-image: url(../button/images/Website_button_yellow.webp);
 }
 
 #section-howto .link-area .link a .title,

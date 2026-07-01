@@ -46,7 +46,7 @@ body a {
 }
 
 div#waveDecoDown {
-    background-image: url(../shared/images/WaveDecoration.png);
+    background-image: url(../shared/images/WaveDecoration.webp);
     background-size: contain;
     background-repeat: repeat-x;
     background-position: center bottom;

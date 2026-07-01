@@ -7,7 +7,7 @@
     align-items: center;
     font-size: clamp(0.45rem, 1.5625vw, 30px);
     margin-top: 5em;
-    background: url(../../shared/images/BG_confetti_3.png) no-repeat center top / 100% auto;
+    background: url(../../shared/images/BG_confetti_3.webp) no-repeat center top / 100% auto;
 }
 
 #section-learn .section-title {
