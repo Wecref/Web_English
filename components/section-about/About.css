@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     font-size: clamp(0.45rem, 1.5625vw, 30px);
-    background: url(../../shared/images/BG_confetti_1.webp) no-repeat center top / 100% auto;
+    background: url(../../shared/images/BG_1.webp) no-repeat center top / 100% auto;
 }
 
 #section-english .section-title {
@@ -62,7 +62,7 @@
     transform: translateY(-50%);
     width: 1.2em;
     height: 2.4em;
-    background: url(../../shared/images/speech_bubble.webp) no-repeat center / contain;
+    background: url("../../shared/images/speech bubble_EN.webp") no-repeat center / contain;
     pointer-events: none;
 }
 
