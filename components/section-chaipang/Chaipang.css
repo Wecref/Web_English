@@ -8,7 +8,7 @@
     font-size: clamp(0.45rem, 1.5625vw, 30px);
     margin-top: 7em;
     padding-bottom: 3em;
-    background: url(../../shared/images/BG_2.webp) no-repeat center top / 100% auto;
+    background: url(../../shared/images/BG_2.webp) no-repeat center top / cover;
 }
 
 #section-howto .section-title {
@@ -74,4 +74,14 @@
 #section-howto .link-area .chars img {
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #section-howto .section-title {
+        margin: 6em 0em 2em;
+    }
+
+    #section-howto {
+        padding-bottom: 12em;
+    }
 }
