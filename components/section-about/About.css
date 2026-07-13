@@ -255,4 +255,17 @@
         top: -1.7em;
         transform: translateX(-50%) rotate(-270deg);
     }
+
+    #section-english .info-texts li:nth-child(2) {
+        line-height: normal;
+    }
+
+    #section-english .info-texts li {
+        margin-bottom: .5em;
+    }
+
+    #section-english .info-texts li::before {
+        top: .3em;
+        transform: none;
+    }
 }
