@@ -245,4 +245,14 @@
         margin-right: 0;
         width: 18.333em;
     }
+
+    #section-english .section-info {
+        font-size: 1.333em;
+    }
+
+    #section-english .section-info::before {
+        left: 65%;
+        top: -1.7em;
+        transform: translateX(-50%) rotate(-270deg);
+    }
 }
