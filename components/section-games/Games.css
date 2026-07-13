@@ -281,4 +281,13 @@
         margin-bottom: 1em;
     }
 
+    #section-learn .section-end {
+        margin-top: 9em;
+    }
+
+    #section-learn .section-end img {
+        width: 95%;
+    }
+}
+
 }
