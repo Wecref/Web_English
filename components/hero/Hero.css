@@ -70,7 +70,7 @@
 
 #hero-content .info .board-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     width: 100%;
 }
@@ -95,8 +95,8 @@
     justify-content: center;
     flex: 0 0 min(42.9167vw, 824px);
     width: min(42.9167vw, 824px);
-    aspect-ratio: 824 / 436;
-    background: url(./images/banner_board.webp) no-repeat center / contain;
+    aspect-ratio: 824 / 368;
+    background: url(./images/banner_board.webp) no-repeat top / contain;
 }
 
 #hero-content .info .bi {
