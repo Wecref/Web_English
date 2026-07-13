@@ -262,7 +262,7 @@
     }
 
     #section-english .info-texts li::before {
-        top: .3em;
+        top: 0;
         transform: none;
     }
 
