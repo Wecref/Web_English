@@ -101,9 +101,10 @@
 
 #hero-content .info .bi {
     width: auto;
-    max-width: 65%;
+    max-width: 70%;
     height: auto;
     margin: 0;
+    padding-top: .5em;
 }
 
 #hero-content .info .hero-description {
