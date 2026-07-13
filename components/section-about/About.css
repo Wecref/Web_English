@@ -283,4 +283,9 @@
     #section-english .section-screenshots img {
         width: 100%;
     }
+
+    #section-english .app-buttons img,
+    #section-learn .app-buttons img {
+        width: 14.033em;
+    }
 }
