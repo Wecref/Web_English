@@ -46,6 +46,14 @@ body a {
     margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+    #section-english .section-title h1,
+    #section-howto .section-title h1,
+    #section-learn .section-title h1 {
+        font-size: 1em;
+    }
+}
+
 div#waveDecoDown {
     background-image: url(../shared/images/WaveDecoration.webp);
     background-size: contain;

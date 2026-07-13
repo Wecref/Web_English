@@ -10,6 +10,12 @@
     background: url(../../shared/images/BG_3.webp) no-repeat center top / 100% auto;
 }
 
+@media screen and (max-width: 768px) {
+    #section-learn {
+        background: none;
+    }
+}
+
 #section-learn .section-title {
     margin: 2.5em 0 2em;
     font-family: "NanumSquareEB";

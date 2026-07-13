@@ -9,6 +9,12 @@
     background: url(../../shared/images/BG_1.webp) no-repeat center top / 100% auto;
 }
 
+@media screen and (max-width: 768px) {
+    #section-english {
+        background: none;
+    }
+}
+
 #section-english .section-title {
     margin: 2em 0em;
     font-family: "NanumSquareEB";
@@ -27,6 +33,13 @@
     font-size: 1.5em;
     color: #c7d8ff;
     line-height: 1.4em;
+}
+
+@media screen and (max-width: 768px) {
+    #section-english .section-intro {
+        font-size: 1.833em;
+        padding: .5em 1em;
+    }
 }
 
 #section-english .section-intro .highlight {
