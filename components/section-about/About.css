@@ -288,4 +288,9 @@
     #section-learn .app-buttons img {
         width: 14.033em;
     }
+
+    #section-howto .book-row picture {
+        width: 100%;
+        max-width: 60%;
+    }
 }
