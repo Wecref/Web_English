@@ -159,6 +159,10 @@
     margin: 4em 0 2em;
 }
 
+#section-howto .book-info {
+    margin: 0 0 2em;
+}
+
 #section-english .book-row,
 #section-howto .book-row {
     display: flex;
