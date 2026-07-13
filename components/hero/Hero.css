@@ -147,3 +147,17 @@
     color: #5581e8;
 }
 
+@media screen and (max-width: 768px) {
+    #hero-content .info .description {
+        font-size: 1.5em;
+    }
+
+    #hero-content .info .board-row > picture:not(.pattern):not(.bi-board) {
+        display: none;
+    }
+
+    #hero-content .info .board-row {
+        justify-content: center;
+    }
+}
+

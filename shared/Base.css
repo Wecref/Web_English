@@ -64,10 +64,4 @@ div#waveDecoDown {
     }
 }
 
-@media screen and (max-width: 425px) {
-    div#waveDecoDown {
-        height: 2em;
-    }
-}
-
 
