@@ -156,7 +156,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1em;
-    margin: 2em 0;
+    margin: 4em 0 2em;
 }
 
 #section-english .book-row,
