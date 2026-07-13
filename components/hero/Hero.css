@@ -113,7 +113,7 @@
     font-family: "NanumSquareB";
     font-size: clamp(0.7rem, 2.0833vw, 40px);
     color: #ffaa00;
-    margin: 1em 0 0;
+    margin: -1em 0 0;
     line-height: 1.4em;
 }
 
