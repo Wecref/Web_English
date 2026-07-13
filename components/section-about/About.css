@@ -155,7 +155,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1em;
+    gap: .8em;
     margin: 4em 0 2em;
 }
 
@@ -184,15 +184,15 @@
 }
 
 #section-english .book-info > .book-row:nth-child(1) {
-    gap: 1.25em;
+    gap: .6em;
 }
 
 #section-english .book-info > .book-row:nth-child(2) {
-    gap: 0.75em;
+    gap: .6em;
 }
 
 #section-english .book-info > .book-row:nth-child(3) {
-    gap: 0.525em;
+    gap: .4em;
 }
 
 #section-english .book-row img,
