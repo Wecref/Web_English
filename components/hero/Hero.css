@@ -149,7 +149,16 @@
 
 @media screen and (max-width: 768px) {
     #hero-content .info .description {
-        font-size: 1.5em;
+        font-size: 1.833em;
+    }
+
+    #hero-content .info .description-row {
+        padding: .25em;
+    }
+
+    #hero-content .info .description-row picture {
+        flex: 0 0 80px;
+        width: 80px;
     }
 
     #hero-content .info .board-row > picture:not(.pattern):not(.bi-board) {
@@ -158,6 +167,23 @@
 
     #hero-content .info .board-row {
         justify-content: center;
+    }
+
+    #hero-content .info .board-row .bi-board {
+        flex: 0 0 min(65vw, 500px);
+        width: min(65vw, 500px);
+    }
+
+    #hero-content .info .board-row .pattern {
+        width: min(23vw, 292px);
+    }
+
+    #hero-content .info .board-row .pattern-left {
+        left: calc(50% - min(65vw, 500px) / 2 - min(18.45vw, 234px));
+    }
+
+    #hero-content .info .board-row .pattern-right {
+        right: calc(50% - min(65vw, 500px) / 2 - min(18.45vw, 234px));
     }
 }
 
