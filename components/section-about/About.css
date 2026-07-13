@@ -256,11 +256,8 @@
         transform: translateX(-50%) rotate(-270deg);
     }
 
-    #section-english .info-texts li:nth-child(2) {
-        line-height: normal;
-    }
-
     #section-english .info-texts li {
+        line-height: normal;
         margin-bottom: .5em;
     }
 
