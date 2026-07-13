@@ -14,6 +14,52 @@
     #section-learn {
         background: none;
     }
+
+    #section-learn > div.app-buttons {
+        display: none;
+    }
+
+    #section-learn .steps-wrapper .app-buttons--inline {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
+    #section-learn .steps-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-learn .step-group-wrap {
+        gap: 0;
+    }
+
+    #section-learn > div.steps-wrapper > div.step-group-wrap {
+        margin-top: 1em;
+    }
+
+    #section-learn > div.steps-wrapper > div.step-group-wrap {
+        font-size: clamp(0.45rem, calc(4.6px + 2.3vw), 30px);
+    }
+
+    #section-learn > div.steps-wrapper .step-label-top .step-label-inner {
+        font-size: clamp(13.8px, 7.3cqw, 1.08em);
+    }
+
+    #section-learn > div.steps-wrapper .step-label-bottom .step-label-inner {
+        font-size: clamp(12px, 0.833em, 1em);
+        line-height: 1.3em;
+    }
+
+    #section-learn .app-buttons {
+        width: clamp(220px, calc(162.9px + 17.86vw), 300px);
+        margin-top: 1em;
+        margin-bottom: 4em;
+    }
+
+    #section-learn .app-buttons img {
+        width: 100%;
+    }
 }
 
 #section-learn .section-title {
@@ -99,6 +145,16 @@
     flex-direction: column;
     align-items: center;
     gap: 1em;
+}
+
+#section-learn .step-group-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+#section-learn .steps-wrapper .app-buttons--inline {
+    display: none;
 }
 
 #section-learn .step-buttons {
@@ -210,4 +266,19 @@
     width: 14.4em;
     position: relative;
     container-type: inline-size;
+}
+
+@media screen and (max-width: 768px) {
+    #section-learn .step-group-wrap {
+        gap: 0;
+    }
+
+    #section-learn .steps-wrapper .app-buttons--inline {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
 }
