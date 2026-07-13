@@ -268,4 +268,19 @@
         top: .3em;
         transform: none;
     }
+
+    #section-english .section-screenshots {
+        flex-wrap: wrap;
+        gap: .5em;
+        max-width: 44em;
+        margin-top: 2.5em;
+    }
+
+    #section-english .section-screenshots picture {
+        flex: 0 0 calc(50% - .25em);
+    }
+
+    #section-english .section-screenshots img {
+        width: 100%;
+    }
 }
