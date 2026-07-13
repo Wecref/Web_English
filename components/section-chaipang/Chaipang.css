@@ -11,12 +11,6 @@
     background: url(../../shared/images/BG_2.webp) no-repeat center top / 100% auto;
 }
 
-@media screen and (max-width: 768px) {
-    #section-howto {
-        background: none;
-    }
-}
-
 #section-howto .section-title {
     margin: 3em 0em 2em;
     font-family: "NanumSquareEB";
