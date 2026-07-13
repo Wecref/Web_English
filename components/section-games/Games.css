@@ -254,11 +254,11 @@
     font-family: "NanumSquareEB";
 }
 
-#section-learn .step-group:nth-child(2) .step-label-bottom .highlight {
+#section-learn .steps-wrapper > .step-group-wrap:nth-child(1) .step-label-bottom .highlight {
     color: #ff7900;
 }
 
-#section-learn .step-group:nth-child(3) .step-label-bottom .highlight {
+#section-learn .steps-wrapper > .step-group-wrap:nth-child(3) .step-label-bottom .highlight {
     color: #456fe5;
 }
 
